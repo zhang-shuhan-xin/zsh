@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>甜觅巧克力工作室 - 用户注册</title>
+        <link rel="stylesheet" href="./css/index.css" />
+    </head>
+    <body>
+        <header>
+            <a href="index.html" style="padding: 0">
+                <h1 class="logo"></h1>
+            </a>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="product.html">产品展示</a></li>
+                <li><a href="culture.html">巧克力课堂</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+
+            <div class="btns">
+                <a href="">登录</a>
+                <a class="active" href="./register.html">注册</a>
+            </div>
+        </header>
+        <main class="register">
+            <div class="register-form">
+                <form action="/register" method="POST">
+                    <h2>用户注册</h2>
+                    <label for="username">用户名:</label>
+                    <input type="text" id="username" placeholder="请输入用户名" name="username" required />
+
+                    <label for="password">密码:</label>
+                    <input type="password" id="password" placeholder="请输入密码" name="password" required />
+
+                    <label for="confirm-password">确认密码:</label>
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        placeholder="请确认密码"
+                        name="confirm-password"
+                        required />
+
+                    <!-- <label for="gender"> 性别： </label>
+
+                    <div class="flat-list">
+                        <div class="item">
+                            <input type="radio" id="male" name="gender" value="male" required />
+                            <label for="male">男</label>
+                        </div>
+
+                        <div class="item">
+                            <input type="radio" id="female" name="gender" value="female" required />
+                            <label for="female">女</label>
+                        </div>
+                    </div>
+
+                    <label for="birthday"> 出生日期:</label>
+                    <input type="date" id="birthday" name="birthday" required />
+
+                    <label for="hobby"> 爱好: </label>
+                    <div class="flat-list">
+                        <div class="item">
+                            <input type="checkbox" id="reading" name="hobby[]" value="reading" />
+                            <label for="reading"> 阅读 </label>
+                        </div>
+
+                        <div class="item">
+                            <input type="checkbox" id="swimming" name="hobby[]" value="swimming" />
+                            <label for="swimming"> 游泳 </label>
+                        </div>
+
+                        <div class="item">
+                            <input type="checkbox" id="hiking" name="hobby[]" value="hiking" />
+                            <label for="hiking"> 滑雪 </label>
+                        </div>
+                    </div>
+                    <label for="education"> 学历:</label>
+                    <select id="education" size="3" name="education" required>
+                        <option value="primary">小学</option>
+                        <option value="middle">初中</option>
+                        <option value="high">高中</option>
+                        <option value="college">大学</option>
+                        <option value="master">研究生</option>
+                        <option value="doctor">博士</option>
+                    </select>
+
+                    <label for="email">邮箱:</label>
+                    <input type="email" id="email" placeholder="请输入邮箱" name="email" required />
+
+                    <label for="avatar">头像:</label>
+                    <input type="file" id="avatar" name="avatar" accept="image/*" />
+
+                    <label for="intro">简介:</label>
+                    <textarea id="intro" name="intro" placeholder="请输入简介"></textarea> -->
+
+                    <input type="submit" value="注册" />
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; TianMi Chocolate Studio. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
